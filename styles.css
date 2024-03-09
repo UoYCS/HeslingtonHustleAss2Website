@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #212124;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #121212;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: #64b5f6;
+    text-decoration: none;
+    transition: color 0.3s ease; /* transition for link color */
+}
+
+section a:visited {
+    color: #b28ecc
+}
+
+section a:hover {
+    text-decoration: underline;
+    color: #b28ecc; /* Change link color on hover */
+}
