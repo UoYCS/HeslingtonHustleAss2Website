@@ -15,24 +15,71 @@
         <h1>WaddleWare Studios - Heslington Hustle</h1>
     </header>
 
+    <section id="diagrams1">
+        <base href="diagrams/arch/">
+        <h2>Architechture Diagrams Structural</h2>
+        <p>Responsibility-Driven-Design (RDD) was the method used to design our object-oriented game system. This method allowed us to organise what potential objects were needed in our game and by designating roles and responsibilities to each object it allowed us to achieve our requirements in the best way. We followed the steps of RDD to design the Class Responsibility Collaborator (CRC) cards: we gave a purpose and role to each candidate object; we grouped and defended their inclusion; we identified the responsibilities of each candidate object and how they collaborated with each other and finally iterated the process till our model satisfied the requirements we had set out. </p>
+        <p>The first version of our CRC cards mapped out the relationships between the objects we would need and the object groups that were formed framed our initial class system. </p>
+        <div class="pdf-container">
+            <a class="pdf-title" href="CRC Cards Vrs 1.pdf" target="_blank">CRC Cards version 1</a>
+            <object data="CRC Cards Vrs 1.pdf" width="1200" height="800"></object>
+        </div>
+
+        <p>From this we created the first version of our class diagram and entity component system.</p>
+        <div class="image">
+            <div class="image-title">Class Diagram version 1</div>
+            <img src="classDiagram1.png" alt="Class Diagram ver 1" onclick="window.open('classDiagram1.png', '_blank')">
+        </div>
+        <div class="image">
+            <div class="image-title">Entity Component System version 1</div>
+            <img src="ECS1.png" alt="Entity Component System version 1" onclick="window.open('ECS1.png', '_blank')">
+        </div>
+
+        <p>In the second version of our CRC cards, we found that after starting implementation our initial model of our CRC cards didn’t meet most of our requirements. Hence, we iterated the RDD process again to include more objects and produced our final CRC cards model.</p>
+        <div class="pdf-container">
+            <a class="pdf-title" href="CRC Cards Vrs 2.pdf" target="_blank">CRC Cards version 2</a>
+            <object data="CRC Cards Vrs 2.pdf" width="1200" height="800"></object>
+        </div>
+
+        <p>From this we created the second version of our class diagram and an additional entity component system.</p>
+        <div class="image">
+            <div class="image-title">Class Diagram version 2</div>
+            <img src="classDiagram2.png" alt="Class Diagram version 2" onclick="window.open('classDiagram2.png', '_blank')">
+        </div>
+        <div class="image">
+            <div class="image-title">Entity Component System version 2</div>
+            <img src="ECS2.png" alt="Entity Component System version 2" onclick="window.open('ECS2.png', '_blank')">
+        </div>
+
+        <p>Upon further implementation we updated our class diagram version to be more thorough.</p>
+        <div class="image">
+            <div class="image-title">Class Diagram version 3</div>
+            <img src="classDiagram3.png" alt="Class Diagram version 3" width="1800" onclick="window.open('classDiagram3.png', '_blank')">
+        </div>
+        <div class="pdf-container">
+            <a class="pdf-title" href="Final Class Diagram Vrs.pdf" target="_blank">Final Class Diagram</a>
+            <object data="Final Class Diagram Vrs.pdf" width="1200" height="800"></object>
+        </div>
+
+    </section>
     <section id="diagrams">
         <h2>Architecture Diagrams Behavioural version 1</h2>
         <base href="diagrams/arch/">
         <div class="image">
             <div class="image-title">1. Open Game version 1</div>
-            <img src="openGame1.png" alt="openGame1" onclick="window.open('openGame1.png', '_blank')">
+            <img src="openGame1.png" alt="Open Game version 1" onclick="window.open('openGame1.png', '_blank')">
         </div>
             <div class="image">
             <div class="image-title">2. Interact with Building version 1</div>
-            <img src="interactBuilding1.png" alt="interactBuilding1" onclick="window.open('interactBuilding1.png', '_blank')">
+            <img src="interactBuilding1.png" alt="Interact with Building version 1" onclick="window.open('interactBuilding1.png', '_blank')">
         </div>
         <div class="image">
             <div class="image-title">3. Day Ends version 1</div>
-            <img src="dayEnds1.png" alt="dayEnds1" onclick="window.open('dayEnds1.png', '_blank')">
+            <img src="dayEnds1.png" alt="Day Ends version 1" onclick="window.open('dayEnds1.png', '_blank')">
         </div>
         <div class="image">
             <div class="image-title">4. Game Ends version 1</div>
-            <img src="gameEnds1.png" alt="gameEnds1" onclick="window.open('gameEnds1.png', '_blank')">
+            <img src="gameEnds1.png" alt="Game Ends version 1" onclick="window.open('gameEnds1.png', '_blank')">
         </div>
     </section>
     <section id="diagrams 2">
@@ -40,48 +87,12 @@
 
         <div class="image">
             <div class="image-title">1. Open Game version 2</div>
-            <img src="openGame2.png" alt="openGame2" onclick="window.open('openGame2.png', '_blank')">
+            <img src="openGame2.png" alt="Open Game version 2" onclick="window.open('openGame2.png', '_blank')">
         </div>
         <div class="image">
             <div class="image-title">3. Day ends version 2</div>
-            <img src="dayEnds2.png" alt="dayEnds2" onclick="window.open('dayEnds2.png', '_blank')">
+            <img src="dayEnds2.png" alt="Day ends version 2" onclick="window.open('dayEnds2.png', '_blank')">
         </div>
     </section>
-
-    <section id="diagrams 3">
-        <h2>Architechture Diagrams Structural</h2>
-
-        <div class="image">
-            <div class="image-title">Class Diagram version 1</div>
-            <img src="classDiagram1.png" alt="Class Diagram ver 1" onclick="window.open('classDiagram1.png', '_blank')">
-        </div>
-        <div class="image">
-            <div class="image-title">Entity Component System version 1</div>
-            <img src="ECS1.png" alt="Entity Component System ver 1" onclick="window.open('ECS1.png', '_blank')">
-        </div>
-        <div class="image">
-            <div class="image-title">Class Diagram version 2</div>
-            <img src="classDiagram2.png" alt="Class Diagram ver 2" onclick="window.open('classDiagram2.png', '_blank')">
-        </div>
-        <div class="image">
-            <div class="image-title">Entity Component System version 2</div>
-            <img src="ECS2.png" alt="Entity Component System ver 2" onclick="window.open('ECS2.png', '_blank')">
-        </div>
-        <div class="image">
-            <div class="image-title">Class Diagram version 3</div>
-            <img src="classDiagram3.png" alt="Class Diagram ver 3" width="1800" onclick="window.open('classDiagram3.png', '_blank')">
-        </div>
-        <div class="pdf-container">
-            <a class="pdf-title" href="CRC Cards Vrs 1.pdf" target="_blank">CRC Cards version 1</a>
-            <object data="CRC Cards Vrs 1.pdf" width="1200" height="800"></object>
-        </div>
-        <div class="pdf-container">
-            <a class="pdf-title" href="CRC Cards Vrs 2.pdf" target="_blank">CRC Cards version 2</a>
-            <object data="CRC Cards Vrs 2.pdf" width="1200" height="800"></object>
-        </div>
-        <div class="pdf-container">
-            <a class="pdf-title" href="Final Class Diagram Vrs.pdf" target="_blank">Final Class Diagram</a>
-            <object data="Final Class Diagram Vrs.pdf" width="1200" height="800"></object>
-        </div>
 </body>
 </html>
