@@ -60,5 +60,13 @@ section a:hover {
 
 .image-title {
     text-align: center;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+}
+
+
+.pdf-title {
+    text-align: left; /* Center the text */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: block; /* Display as block element */
 }
